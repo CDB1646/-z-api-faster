@@ -1,134 +1,146 @@
 {
+  "last_updated": "2025-04-12",
   "systems": [
     {
-      "cpu": "i5-12400",
-      "gpu": "GTX 1060",
+      "cpu": "Intel Core i5-12400",
+      "gpu": "Intel(R) UHD Graphics 730",
       "ram": "32GB",
-      "resolutions": [
+      "resolutions_by_refresh_rate": [
         {
-          "width": 1440,
-          "height": 1080,
-          "fps": 80,
-          "note": "Geniş FOV, yakın-orta mesafede headshot için ideal, akıcı performans",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 800
+          "refresh_rate_hz": 60,
+          "resolutions": [
+            {
+              "width": 1280,
+              "height": 720,
+              "fps": 50,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 600,
+              "note": "Low-end friendly, smooth for headshots, limited FOV"
+            },
+            {
+              "width": 1024,
+              "height": 768,
+              "fps": 60,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 400,
+              "note": "Max smoothness, minimal detail, headshot viable"
+            }
+          ]
         },
         {
-          "width": 1620,
-          "height": 1600,
-          "fps": 65,
-          "note": "Net detaylar, uzun mesafede headshot için uygun, GTX 1060'ı biraz zorlar",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 1000
+          "refresh_rate_hz": 75,
+          "resolutions": [
+            {
+              "width": 1280,
+              "height": 720,
+              "fps": 50,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 600,
+              "note": "Matches 75Hz, smooth headshot tracking, decent FOV"
+            },
+            {
+              "width": 1440,
+              "height": 1080,
+              "fps": 40,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 800,
+              "note": "Wider FOV, headshots possible but FPS limited"
+            }
+          ]
         },
         {
-          "width": 1920,
-          "height": 1080,
-          "fps": 75,
-          "note": "Standart 1080p, dengeli performans ve netlik, headshot için güvenli seçim",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 800
+          "refresh_rate_hz": 120,
+          "resolutions": [
+            {
+              "width": 1280,
+              "height": 720,
+              "fps": 50,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 600,
+              "note": "Smooth for 120Hz, headshot response decent"
+            },
+            {
+              "width": 1024,
+              "height": 768,
+              "fps": 60,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 400,
+              "note": "Max FPS, low latency for headshots"
+            }
+          ]
         }
+        // 144Hz, 165Hz, ..., 750Hz için düşük çözünürlükler eklenebilir, UHD 730 çok zorlanacağı için şimdilik 120Hz ile sınırlı
       ]
     },
     {
-      "cpu": "i5-8300H",
-      "gpu": "GTX 1050 Ti",
-      "ram": "16GB",
-      "resolutions": [
-        {
-          "width": 1280,
-          "height": 720,
-          "fps": 90,
-          "note": "Düşük sistemler için akıcı, headshot için FOV dar ama kasma yok",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 600
-        },
-        {
-          "width": 1440,
-          "height": 1080,
-          "fps": 60,
-          "note": "Orta mesafede headshot için iyi, GTX 1050 Ti ile sınırda performans",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 800
-        }
-      ]
-    },
-    {
-      "cpu": "Ryzen 5 3600",
-      "gpu": "RX 580",
-      "ram": "16GB",
-      "resolutions": [
-        {
-          "width": 1280,
-          "height": 720,
-          "fps": 90,
-          "note": "Maksimum akıcılık, headshot için hızlı tepki, düşük detay",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 600
-        },
-        {
-          "width": 1920,
-          "height": 1080,
-          "fps": 70,
-          "note": "Dengeli, headshot için yeterli netlik, RX 580 ile stabil",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 800
-        }
-      ]
-    },
-    {
-      "cpu": "i7-13700K",
-      "gpu": "RTX 4060",
+      "cpu": "Intel Core i5-12400",
+      "gpu": "NVIDIA GTX 1060 6GB",
       "ram": "32GB",
-      "resolutions": [
+      "resolutions_by_refresh_rate": [
         {
-          "width": 1920,
-          "height": 1080,
-          "fps": 120,
-          "note": "Yüksek FPS, headshot için akıcı ve net, RTX 4060 ile tam uyumlu",
-          "graphics_quality": "Balanced",
-          "recommended_dpi": 800
+          "refresh_rate_hz": 60,
+          "resolutions": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "fps": 75,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 800,
+              "note": "Balanced clarity, great for headshots"
+            },
+            {
+              "width": 1620,
+              "height": 1600,
+              "fps": 65,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 1000,
+              "note": "Sharp for long-range headshots"
+            }
+          ]
         },
         {
-          "width": 2560,
-          "height": 1440,
-          "fps": 90,
-          "note": "2K, ultra net headshot hedefleme, yüksek sistemler için",
-          "graphics_quality": "Balanced",
-          "recommended_dpi": 1200
+          "refresh_rate_hz": 75,
+          "resolutions": [
+            {
+              "width": 1920,
+              "height": 1080,
+              "fps": 75,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 800,
+              "note": "Maxes out 75Hz, smooth headshot tracking"
+            },
+            {
+              "width": 1440,
+              "height": 1080,
+              "fps": 80,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 800,
+              "note": "Wide FOV, close-range headshot advantage"
+            }
+          ]
         },
         {
-          "width": 1920,
-          "height": 1900,
-          "fps": 80,
-          "note": "iPad view simülasyonu, geniş FOV, headshot için avantajlı",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 1000
+          "refresh_rate_hz": 120,
+          "resolutions": [
+            {
+              "width": 1440,
+              "height": 1080,
+              "fps": 80,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 800,
+              "note": "Wide FOV, smooth for 120Hz"
+            },
+            {
+              "width": 1280,
+              "height": 720,
+              "fps": 90,
+              "graphics_quality": "Smooth",
+              "recommended_dpi": 600,
+              "note": "Max FPS, fast response"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "cpu": "i3-7100",
-      "gpu": "Integrated HD 630",
-      "ram": "8GB",
-      "resolutions": [
-        {
-          "width": 1024,
-          "height": 768,
-          "fps": 40,
-          "note": "Düşük sistemler için minimum, headshot zor, sadece akıcılık",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 400
-        },
-        {
-          "width": 1280,
-          "height": 720,
-          "fps": 50,
-          "note": "Temel akıcılık, headshot için sınırlı görüş, düşük detay",
-          "graphics_quality": "Smooth",
-          "recommended_dpi": 600
-        }
+        // 144Hz, 165Hz, ..., 750Hz devam eder
       ]
     }
   ]
